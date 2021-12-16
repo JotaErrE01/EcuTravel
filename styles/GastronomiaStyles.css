@@ -44,7 +44,7 @@ h2.tituloInicial{
 }
 
 .imgComida{ 
- background-image: linear-gradient(0deg, rgba(255, 255, 237,0.15), rgba(1.00, 1.00, 0.93,0.1)), url("img/desayuno.jpg");
+ background-image: linear-gradient(0deg, rgba(255, 255, 237,0.15), rgba(1.00, 1.00, 0.93,0.1)), url("../img/desayuno.jpg");
 
     object-fit: cover;
 
