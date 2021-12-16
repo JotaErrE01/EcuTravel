@@ -100,7 +100,7 @@ body{
 
 .container .card:hover{
     transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 16px #ed8600;
 }
 
 .container .card img{
@@ -110,8 +110,9 @@ body{
 }
 
 
-.container .card h4{
+.container .card .titleCard{
     font-weight: 600;
+    font-size: 16px;
     color: #FFFFED;
 }
 
