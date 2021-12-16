@@ -1,0 +1,114 @@
+
+/* Header Styles */
+header {
+    background-color: var(--dark);
+}
+
+.contenedor-header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-header{
+    align-items: center;
+    color: var(--secondary);
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.logo-header h1{
+    font-size: 4.5rem;
+    margin: 2rem 0;
+}
+.logo-header i{
+    font-size: 3rem;
+}
+
+.nav-header{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-header a{
+    color: var(--secondary);
+    font-size: 1.8rem;
+    transition: color .2s ease;
+}
+
+.nav-header a:hover{
+    color: var(--primary);
+}
+
+
+/* Vuelos */
+.seccion-vuelos{
+    text-align: center;
+}
+
+.img-vuelos{
+    height: 50rem;
+    margin: 0 auto;
+    width: 80rem;
+}
+
+.contenedor-vuelos{
+    display: grid;
+    column-gap: 3rem;
+    row-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 3rem auto 0 auto;
+    width: 100%;
+    max-width: fit-content;
+    
+}
+
+.vuelo{
+    /* border: 1px solid rgba(195, 192, 192, 0.534); */
+    padding: 2rem;
+}
+
+.vuelo h3 {
+    display: inline-block;
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.vuelos-info{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.vuelos-info p{
+    text-align: left;
+}
+
+.vuelos-info span{
+    font-weight: bold;
+}
+
+.vuelos-info .precio{
+    text-align: right;
+}
+
+/* footer */
+.footer{
+    margin-top: 3rem;
+    background-color: var(--dark);
+}
+
+.footer a{
+    margin-left: 0;
+}
+
+.contenedor-footer{
+    color: var(--secondary);
+    padding: 1rem;
+    text-align: center;
+}
+
+.contenedor-footer p{
+    margin: 2rem 0 0 0;
+}

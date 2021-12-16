@@ -1,0 +1,148 @@
+*{
+    font-family: 'Marcellus', serif;
+}
+
+body{
+    margin: 0;
+    height: auto;
+    min-height: 100%;
+    
+    
+}
+
+h2, h3{
+    color:#1D1D1B;
+}
+
+p::first-letter{
+    font-family:  'Helvetica Neue', sans-serif;
+}
+
+a[class="Ver servicios"]{
+text-decoration: none;
+}
+
+.containerTitulo{
+    
+    width: 623px;
+    min-height: auto;
+    display: flex;
+    margin: auto auto 45px 160px;
+    border-color: #f1c50e;
+    border-width: 45px;
+}
+
+h2.tituloInicial{
+    font-family: 'Marcellus', serif;
+    color: #313131;
+    font-weight: 700;
+    font-size: 6rem;
+    margin: 0;
+    line-height: 1.1;
+    margin-top: 80px;
+
+}
+
+.imgComida{ 
+ background-image: linear-gradient(0deg, rgba(255, 255, 237,0.15), rgba(1.00, 1.00, 0.93,0.1)), url("img/desayuno.jpg");
+
+    object-fit: cover;
+
+    display: block;
+    background-size: cover;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    min-height: 610px;
+}
+
+p.subTextoTitulo{
+    font-size: 2rem;
+    color: #808080;
+    
+    /*font-family: 'Open Sans',sans-serif;*/
+    line-height: 1.6;
+    margin: 0;
+}
+
+div a {
+    color: #313131;
+    outline: none;
+    text-decoration: none;
+  }
+
+.enlace {
+    padding: 10px 30px;
+    font-family: 'Marcellus', serif;
+    text-align: center;
+    border-style: solid;
+    border-color: #716a6a;
+    border-width: 3px;
+    border-radius: 25px;
+    font-size: 2rem;
+    margin: auto auto auto 160px;
+    width: 250px;
+    background-color: transparent !important;
+}
+  
+.enlace:hover{
+    cursor:pointer;
+    color: #ED8600;
+    border-color: #ED8600;
+    transition: color .2s ease;
+}
+
+
+#containerServicios{
+    clear: both;
+    width: 80%;
+    margin: auto;
+}
+
+.columna{
+    border-radius: 30px;
+    border: 15px solid #F5F5F5;
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-right: 3%;
+    padding-left: 3%;
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    padding-bottom: 35px;
+}
+.columna:hover{
+    cursor: pointer;
+    color: #ED8600;
+    transition: color .2s ease;
+
+}
+
+
+.tituloServicios{
+    clear: both;
+    margin-left: 11%;
+    text-align: center;
+    color: #F5F5F5;
+    background-color: #1d1d1b;
+    font-size: 2rem;
+    border-radius: 5px;
+    width: 78%;
+    padding-top: 1%;    
+    padding-bottom: 1%;
+
+}
+
+.containerImg{
+    clear: both;
+    width: 78%;
+    margin: auto;
+}
+
+.imagenBlock{
+    border-radius: 5px;
+    float: left;
+    width: 33.33%;
+    margin: auto;
+
+}
+
