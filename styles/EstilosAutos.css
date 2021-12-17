@@ -1,0 +1,324 @@
+
+/* Header Styles */
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Marcellus;
+    font-style: normal;
+    font-weight: normal
+
+}
+
+
+header {
+    background-color: black;
+}
+body{
+    background-color: #f5f5f5;
+}
+
+.contenedor-header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo-header{
+    align-items: center;
+    color: ivory;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.logo-header h1{
+    font-size: 4.5rem;
+    margin: 2rem 0;
+}
+.logo-header i{
+    font-size: 3rem;
+}
+
+.nav-header{
+    display: flex;
+    gap: 2rem;
+}
+
+
+.nav-header a{
+    color: ivory;
+    font-size: 1.8rem;
+    transition: color .2s ease;
+
+}
+
+.nav-header a:hover{
+    color:#ed8600 ;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+a, p{
+    text-decoration: none;
+}
+
+div p {
+    font-weight: lighter;
+}
+
+.contenedor-Introduccion{
+    margin: 0px;
+    height: 500px;
+    width: 100%;
+    background-image: url("../img/autopresentacion.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-y: -120px;
+
+}
+h1.Introduccion-descripcion {
+    font-size: 35px;
+    color: #ED8600;
+    position: absolute;
+    margin-top: -40px;
+    top: 200px;
+    left: 100px;
+    font-style: italic;
+}
+.titulos-seccion{
+    font-size: 35px;
+    color: #ED8600;
+    text-align: center;
+    text-decoration: underline overline;
+}
+.titulos-seccion::before{
+    content:"~";
+}
+
+.titulos-seccion::after{
+    content:"~";
+}
+.contenedorm{
+    padding:60px 0 ;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedorm-nuestro-servicio{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.contenedorm-nuestro-servicio img{
+    margin-top: 25px;
+    width: 48%;
+
+}
+.contenedorm-nuestro-servicio ul{
+    list-style-type:square;
+    margin-top: 10px;
+    padding-top: 30px;
+
+}
+#img-nuestro-servicio{
+    border-radius: 3px;
+}
+
+li{
+    line-height: 1.5;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.contenedor-directorio{
+    margin-top: 20px;
+    
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-1{
+    flex-basis: 33%;
+    padding: 20px;
+    min-width: 150px;
+    margin-bottom: 3px;
+    margin-left: 1.5px;
+    margin-right: 1.5px;
+    background:#eeebe9;
+    border-radius: 5px;
+    
+
+}
+.col-1 img{
+    max-width: 100%;
+    height:180px ;
+    display:block;
+    margin:auto;
+
+}
+
+.col-1 p{
+    text-align: center;
+    font-weight: lighter;
+}
+.col-1 h4{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 6px;
+    letter-spacing: 3px
+    
+}
+
+.btns{
+    display: inline-block;
+    background: #ED8600;
+    color:white;
+    border-radius: 30px;
+
+}
+
+.btns:hover{
+    background:black;
+}
+.btns.carros{
+    padding: 5px 15px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+
+
+.btns.directorio{
+    padding: 5px 30px;
+    margin-top: 30px;
+    margin-left: 45%;
+    font-size: 25px;
+
+}
+
+.contenedor-consejos{
+    margin-top:20px ;
+}
+.col-2{
+    flex-basis: 28%;
+    padding: 30px;
+    width: 80px;
+    height: 481px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    margin-right:3px;
+    background: gainsboro;
+    border-radius: 5px;
+   
+}
+.col-2 h4{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 6px;
+    
+}
+
+.col-2 p{
+    text-align: justify;
+    
+}
+
+.seccion-suscribete{
+    margin-top: 70px;
+}
+
+.contenedor-suscribirse{
+    margin-left: 200PX;
+    height: 130px;
+    width: 60%;
+    background: #c06f04;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-suscribirse{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color:#c06f04;
+    margin-top: 30px;
+    font-size: 40px;
+
+
+}
+
+input[type="email"]{
+
+    width: 450px;
+    height: 30px;
+    top: 50%;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 9px;
+
+}
+button[type="submit"]{
+    margin-left: 5px;
+    width: 100px;
+    height: 30px;
+    top: 50%;
+    padding:8px;
+    cursor: pointer;
+    border-radius:9px ;
+    border: 1px solid #505050;
+    font-size: 18px;
+    outline: none;
+    border-radius: 9px;
+    outline: none;
+    background: rgb(168, 167, 167);
+    text-align: center;
+}
+
+button[type="submit"]:hover{
+    background:grey;
+}
+
+/* footer */
+.footer{
+    margin-top: 3rem;
+    background-color: black;
+}
+
+.footer a{
+    margin-left: 0;
+}
+
+.contenedor-footer{
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.contenedor-footer p{
+    margin: 2rem 0 0 0;
+}
+
+.nombre-cat{
+    font-size: 15px;
+}
+
+.textblock{
+    line-height: 1.2;   
+}
+
