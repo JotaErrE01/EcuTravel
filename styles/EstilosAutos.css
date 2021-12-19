@@ -148,8 +148,7 @@ li{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 .col-1{
     flex-basis: 33%;
@@ -205,8 +204,9 @@ li{
 .btns.directorio{
     padding: 5px 30px;
     margin-top: 30px;
-    margin-left: 45%;
+    margin-left: 420px;
     font-size: 25px;
+    
 
 }
 
@@ -278,7 +278,7 @@ button[type="submit"]{
     width: 100px;
     height: 30px;
     top: 50%;
-    padding:8px;
+    padding:auto;
     cursor: pointer;
     border-radius:9px ;
     border: 1px solid #505050;
@@ -288,6 +288,7 @@ button[type="submit"]{
     outline: none;
     background: rgb(168, 167, 167);
     text-align: center;
+    
 }
 
 button[type="submit"]:hover{
