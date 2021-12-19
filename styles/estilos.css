@@ -136,7 +136,7 @@ body{
 
 /* borrooso */
 
-.divbutton{
+#divbutton{
     padding: 40px;
     display: flexbox;
     margin-top: 590px;
